@@ -1,0 +1,140 @@
+@media screen and (max-width:600px) {
+    .detailsContainer {
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    .postSec {
+        flex-direction: column;
+    }
+
+    .userDetailsContainer {
+        padding: 0!important;
+        text-align: center;
+    }
+    .userBtnsSec {
+        padding: 0 3rem;
+        align-items: center;
+    }
+     .morePosts{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+     }
+}
+
+.detailsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 100%; */
+    padding: 2rem 4rem 0 4rem;
+    background-color: #f0f8ff;
+}
+
+.postSec {
+    display: flex;
+    gap: 10rem;
+}
+
+.postImgSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    width: 23rem;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: white;
+}
+
+.postImgSec:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.postId {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+
+.backBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    background-color: #f0f8ff;
+}
+
+.imgContainer {
+    width: 100%;
+    min-width: 20rem;
+    position: relative;
+}
+
+.detailsImg {
+    width: 100%;
+    border-radius: 1.5rem;
+    position: relative;
+}
+
+.titleIcon {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    width: 90%;
+}
+
+.imgIcons {
+    padding-left: 1rem;
+    height: 3rem;
+}
+
+.userDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    width: 100%;
+    gap: 3rem;
+}
+
+.userBtnsSec {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.detailsBtn {
+    background-color: white;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: darkorange;
+    color: white;
+}
+
+.details {
+    color: grey;
+    font-size: 1rem;
+}
+.morePostsHeading{
+    margin-bottom: 2rem;
+}

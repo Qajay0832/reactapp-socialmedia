@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navContainer {
+  position: relative;
+}
+
+.navBar {
+  top: 0;
+  z-index: 1000;
+  position: sticky;
+  text-align: left;
+  padding: 0 2rem;
+  background-color: darkorange;
+  color: white;
+}
+
+.navSection {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  justify-content: space-between;
+}
+
+.navHeading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navButtons {
+  margin: 0.6rem 0;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  background-color: #ecf87f;
+  border: none;
+  border-radius: 2rem;
+}
+
+.navBtn {
+  height: 2.5rem;
+}
+
+.navBtn:hover {
+  color: orange;
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.menuicon {
+  height: 1.5rem;
+  display: none;
+}
+
+.menuContainer {
+  display: none;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  height: 100vh;
+  width: 50vw;
+  padding: 1rem 1rem 0 0;
+  font-size: x-large;
+  text-align: right;
+  align-items: center;
+  color: orange;
+}
+
+.menu {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menuBtn {
+  padding-right: 2rem;
+}
+
+.menuBtn:hover {
+  background-color: orange;
+  color: white;
+}
+
+@media screen and (max-width:600px) {
+  .navBar {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .navSection {
+    display: none;
+  }
+
+  .menuicon {
+    display: inline;
+    margin-right: 1rem;
+    padding: 0.6rem 0;
+  }
+
+  .menuContainer {
+    display: block;
+  }
+}

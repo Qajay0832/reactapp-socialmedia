@@ -1,0 +1,60 @@
+.cardContainer {
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    width: 25rem;
+    padding: 1.2rem;
+}
+
+.cardImg {
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.arrowBtn {
+    background-color: darkorange;
+    border: none;
+    border-radius: 1rem;
+}
+
+.arrowBtn:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    position: relative;
+    bottom: 1rem;
+    background-color: yellow;
+}
+.cardTitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.cardBody{
+    color: grey;
+}
+
+.cardDetails{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.cardLink{
+    color: darkorange;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cardLink:hover{
+    position: relative;
+    bottom: 0.2rem;
+}
+@media screen and (max-width:600px) {
+    .cardContainer {
+        width: 23rem;
+    }
+    
+}
